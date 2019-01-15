@@ -1,5 +1,4 @@
 FROM ubuntu:16.04
-# FROM nvidia/cuda:9.2-runtime-ubuntu16.04  # for GPU
 
 USER root:root
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
