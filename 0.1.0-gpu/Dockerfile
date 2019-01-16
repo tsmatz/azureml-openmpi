@@ -1,4 +1,4 @@
-FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04  # dev image is needed for tensorflow and horovod
+FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
 
 USER root:root
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
